@@ -1,0 +1,44 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 170px 100px 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.list{
+    height: 25px;
+}
+
+.dueDate{
+    height: 28px;
+}
+
+.add{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.delete{
+    background-color: darkred;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
